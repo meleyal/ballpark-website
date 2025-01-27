@@ -118,46 +118,37 @@
                             Browse Problems
                         </a>
                     </div>
-
-                    <div class="md:hidden">
-                        <button class="text-gray-600 hover:text-gray-900">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M4 6h16M4 12h16M4 18h16"
-                                />
-                            </svg>
-                        </button>
-                    </div>
                 </div>
             </div>
         </nav>
 
         <main>
             <!-- Hero -->
-            <header class="pt-28 pb-20">
+            <header class="pt-20 sm:pt-28 pb-12 sm:pb-20">
                 <div class="container mx-auto px-8">
                     <div class="max-w-5xl mx-auto text-center">
-                        <span class="inline-block text-business-600 font-semibold text-sm mb-8 tracking-wide uppercase">
+                        <span
+                            class="inline-block text-business-600 font-semibold text-xs sm:text-sm mb-6 sm:mb-8 tracking-wide uppercase"
+                        >
                             For Business Owners & Indie Developers
                         </span>
-                        <h1 class="text-8xl font-extrabold mb-8 leading-[1.1] tracking-tight">
+                        <h1 class="text-5xl sm:text-8xl font-extrabold mb-6 sm:mb-8 leading-[1.1] tracking-tight">
                             Where <span class="strike-through-effect">Problems</span> Become
                             <span class="highlight-effect italic">Products</span>
                         </h1>
-                        <p class="text-2xl dark:text-white/90 text-gray-700 mb-12 leading-relaxed max-w-3xl mx-auto">
+                        <p
+                            class="text-xl sm:text-2xl dark:text-white/90 text-gray-700 mb-8 sm:mb-12 leading-relaxed max-w-3xl mx-auto"
+                        >
                             <strong>Businesses</strong> turn your business challenges into tailored software solutions.
                             <strong>Developers</strong>
                             build profitable products with guaranteed early adopters.
                         </p>
-                        <div class="flex justify-center gap-6">
+                        <div class="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="https://forms.gle/i6H3ZxDxcwm2yqfG9"
-                                class="bg-business-600 text-white px-16 py-5 rounded-full hover:bg-business-700 transition-colors font-medium flex items-center gap-2 group text-lg"
+                                class="bg-business-600 text-white px-8 sm:px-16 py-4 sm:py-5 rounded-full hover:bg-business-700 transition-colors font-medium flex items-center justify-center gap-2 group text-base sm:text-lg"
                             >
                                 Submit Your Problem
                                 <svg
@@ -178,7 +169,7 @@
                                 href="https://forms.gle/F7mbw9Gt4gTKNT4n7"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                class="bg-developer-600 text-white px-16 py-5 rounded-full hover:bg-developer-700 transition-colors font-medium flex items-center gap-2 group text-lg"
+                                class="bg-developer-600 text-white px-8 sm:px-16 py-4 sm:py-5 rounded-full hover:bg-developer-700 transition-colors font-medium flex items-center justify-center gap-2 group text-base sm:text-lg"
                             >
                                 Browse Problems
                                 <svg
@@ -201,52 +192,54 @@
             </header>
 
             <!-- Stats -->
-            <section class="pb-28 -mt-8">
+            <section class="pb-12 sm:pb-28 -mt-4 sm:-mt-8">
                 <div class="container mx-auto px-8 text-gray-700 dark:text-white/90">
-                    <div class="text-center mb-12 text-sm dark:text-white/60">
+                    <div class="text-center mb-8 sm:mb-12 text-sm dark:text-white/60">
                         *Platform currently in beta - these are our targets for 2025:
                     </div>
-                    <div class="grid md:grid-cols-4 gap-12 max-w-6xl mx-auto">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-12 max-w-6xl mx-auto">
                         <div class="text-center">
-                            <div class="text-3xl font-bold mb-2">100+</div>
-                            <p class="text-gray-500 text-sm">Problems</p>
+                            <div class="text-2xl sm:text-3xl font-bold mb-1 sm:mb-2">100+</div>
+                            <p class="text-gray-500 text-xs sm:text-sm">Problems</p>
                         </div>
                         <div class="text-center">
-                            <div class="text-3xl font-bold mb-2">Q2</div>
-                            <p class="text-gray-500 text-sm">2025 Launch</p>
+                            <div class="text-2xl sm:text-3xl font-bold mb-1 sm:mb-2">Q2</div>
+                            <p class="text-gray-500 text-xs sm:text-sm">2025 Launch</p>
                         </div>
                         <div class="text-center">
-                            <div class="text-3xl font-bold mb-2">500+</div>
-                            <p class="text-gray-500 text-sm">Developers</p>
+                            <div class="text-2xl sm:text-3xl font-bold mb-1 sm:mb-2">500+</div>
+                            <p class="text-gray-500 text-xs sm:text-sm">Developers</p>
                         </div>
                         <div class="text-center">
-                            <div class="text-3xl font-bold mb-2">$1M+</div>
-                            <p class="text-gray-500 text-sm">Revenue</p>
+                            <div class="text-2xl sm:text-3xl font-bold mb-1 sm:mb-2">$1M+</div>
+                            <p class="text-gray-500 text-xs sm:text-sm">Revenue</p>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- Who Uses Ballpark -->
-            <section class="py-20 border-t border-gray-200 dark:border-gray-700">
+            <section class="py-12 sm:py-20 border-t border-gray-200 dark:border-gray-700">
                 <div class="max-w-7xl mx-auto px-8">
-                    <div class="text-center mb-16">
-                        <h2 class="text-4xl font-bold mb-4">Who Uses Ballpark?</h2>
-                        <p class="text-xl text-gray-600 dark:text-white/70 max-w-2xl mx-auto">
+                    <div class="text-center mb-8 sm:mb-16">
+                        <h2 class="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4">Who Uses Ballpark?</h2>
+                        <p class="text-lg sm:text-xl text-gray-600 dark:text-white/70 max-w-2xl mx-auto">
                             Businesses get software built, developers build profitable products
                         </p>
                     </div>
 
-                    <div class="grid md:grid-cols-2 gap-16 mb-24">
+                    <div class="grid md:grid-cols-2 gap-8 sm:gap-16 mb-12 sm:mb-24">
                         <!-- For Businesses -->
                         <div
-                            class="flex flex-col h-full p-12 rounded-xl border border-business-100 dark:border-business-700"
+                            class="flex flex-col h-full p-6 sm:p-12 rounded-xl border border-gray-200 dark:border-gray-700"
                         >
-                            <div class="mb-8">
+                            <div class="mb-6 sm:mb-8">
                                 <div class="flex items-center mb-3">
-                                    <div class="bg-business-100 dark:bg-business-700 p-3 rounded-lg mr-4">
+                                    <div
+                                        class="bg-business-100 dark:bg-business-700 p-2 sm:p-3 rounded-lg mr-3 sm:mr-4"
+                                    >
                                         <svg
-                                            class="w-8 h-8 text-business-600 dark:text-business-100"
+                                            class="w-6 h-6 sm:w-8 sm:h-8 text-business-600 dark:text-business-100"
                                             fill="none"
                                             stroke="currentColor"
                                             viewBox="0 0 24 24"
@@ -261,7 +254,7 @@
                                     </div>
                                     <div>
                                         <div class="text-sm font-semibold text-business-600 mb-1">For Businesses</div>
-                                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white/90">
+                                        <h3 class="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white/90">
                                             Solve Your Business Problems
                                         </h3>
                                     </div>
@@ -269,18 +262,18 @@
                             </div>
 
                             <div class="flex-grow">
-                                <p class="text-gray-600 dark:text-white/70 mb-8">
+                                <p class="text-base sm:text-lg text-gray-600 dark:text-white/70 mb-6 sm:mb-8">
                                     Have a business challenge that needs a software solution? Share your problem and
                                     connect with developers ready to build exactly what you need.
                                 </p>
 
-                                <div class="space-y-6 mb-8">
-                                    <div class="flex items-start gap-4">
+                                <div class="space-y-4 sm:space-y-6 mb-6 sm:mb-8">
+                                    <div class="flex items-start gap-3 sm:gap-4">
                                         <div
-                                            class="bg-business-100 dark:bg-business-700 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                                            class="bg-business-100 dark:bg-business-700 w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center flex-shrink-0"
                                         >
                                             <svg
-                                                class="w-6 h-6 text-business-600 dark:text-business-100"
+                                                class="w-5 h-5 sm:w-6 sm:h-6 text-business-600 dark:text-business-100"
                                                 fill="none"
                                                 stroke="currentColor"
                                                 viewBox="0 0 24 24"
@@ -294,19 +287,21 @@
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 class="text-lg font-bold mb-2">No Upfront Costs</h4>
-                                            <p class="text-gray-600 dark:text-white/70">
+                                            <h4 class="text-base sm:text-lg font-bold mb-1 sm:mb-2">
+                                                No Upfront Costs
+                                            </h4>
+                                            <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                 Only pay when you find a solution that works. No expensive consulting
                                                 fees or development retainers.
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="flex items-start gap-4">
+                                    <div class="flex items-start gap-3 sm:gap-4">
                                         <div
-                                            class="bg-business-100 dark:bg-business-700 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                                            class="bg-business-100 dark:bg-business-700 w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center flex-shrink-0"
                                         >
                                             <svg
-                                                class="w-6 h-6 text-business-600 dark:text-business-100"
+                                                class="w-5 h-5 sm:w-6 sm:h-6 text-business-600 dark:text-business-100"
                                                 fill="none"
                                                 stroke="currentColor"
                                                 viewBox="0 0 24 24"
@@ -320,18 +315,20 @@
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 class="text-lg font-bold mb-2">Guaranteed Results</h4>
-                                            <p class="text-gray-600 dark:text-white/70">
+                                            <h4 class="text-base sm:text-lg font-bold mb-1 sm:mb-2">
+                                                Guaranteed Results
+                                            </h4>
+                                            <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                 Work directly with developers to ensure the solution meets your needs.
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="flex items-start gap-4">
+                                    <div class="flex items-start gap-3 sm:gap-4">
                                         <div
-                                            class="bg-business-100 dark:bg-business-700 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                                            class="bg-business-100 dark:bg-business-700 w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center flex-shrink-0"
                                         >
                                             <svg
-                                                class="w-6 h-6 text-business-600 dark:text-business-100"
+                                                class="w-5 h-5 sm:w-6 sm:h-6 text-business-600 dark:text-business-100"
                                                 fill="none"
                                                 stroke="currentColor"
                                                 viewBox="0 0 24 24"
@@ -345,8 +342,10 @@
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 class="text-lg font-bold mb-2">Sustainable Pricing</h4>
-                                            <p class="text-gray-600 dark:text-white/70">
+                                            <h4 class="text-base sm:text-lg font-bold mb-1 sm:mb-2">
+                                                Sustainable Pricing
+                                            </h4>
+                                            <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                 Get early adopter pricing and influence over the product direction.
                                             </p>
                                         </div>
@@ -354,16 +353,16 @@
                                 </div>
                             </div>
 
-                            <div class="mt-8 flex">
+                            <div class="mt-auto">
                                 <a
                                     href="https://forms.gle/i6H3ZxDxcwm2yqfG9"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    class="bg-business-600 text-white px-8 py-4 rounded-full hover:bg-business-700 transition-colors font-medium flex items-center gap-2 group text-base"
+                                    class="w-full sm:w-auto bg-business-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full hover:bg-business-700 transition-colors font-medium flex items-center justify-center gap-2 group text-sm sm:text-base"
                                 >
                                     Submit Your Problem
                                     <svg
-                                        class="w-5 h-5 group-hover:translate-x-0.5 transition-transform"
+                                        class="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-0.5 transition-transform"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -381,13 +380,15 @@
 
                         <!-- For Developers -->
                         <div
-                            class="flex flex-col h-full p-12 rounded-xl border border-developer-100 dark:border-developer-700"
+                            class="flex flex-col h-full p-6 sm:p-12 rounded-xl border border-gray-200 dark:border-gray-700"
                         >
-                            <div class="mb-8">
+                            <div class="mb-6 sm:mb-8">
                                 <div class="flex items-center mb-3">
-                                    <div class="bg-developer-100 dark:bg-developer-700 p-3 rounded-lg mr-4">
+                                    <div
+                                        class="bg-developer-100 dark:bg-developer-700 p-2 sm:p-3 rounded-lg mr-3 sm:mr-4"
+                                    >
                                         <svg
-                                            class="w-8 h-8 text-developer-600 dark:text-developer-100"
+                                            class="w-6 h-6 sm:w-8 sm:h-8 text-developer-600 dark:text-developer-100"
                                             fill="none"
                                             stroke="currentColor"
                                             viewBox="0 0 24 24"
@@ -402,7 +403,7 @@
                                     </div>
                                     <div>
                                         <div class="text-sm font-semibold text-developer-600 mb-1">For Developers</div>
-                                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white/90">
+                                        <h3 class="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white/90">
                                             Build Products That Matter
                                         </h3>
                                     </div>
@@ -410,18 +411,18 @@
                             </div>
 
                             <div class="flex-grow">
-                                <p class="text-gray-600 dark:text-white/70 mb-8">
+                                <p class="text-base sm:text-lg text-gray-600 dark:text-white/70 mb-6 sm:mb-8">
                                     Find validated business problems to solve and build profitable micro-SaaS products
                                     with guaranteed early adopters.
                                 </p>
 
-                                <div class="space-y-6 mb-8">
-                                    <div class="flex items-start gap-4">
+                                <div class="space-y-4 sm:space-y-6 mb-6 sm:mb-8">
+                                    <div class="flex items-start gap-3 sm:gap-4">
                                         <div
-                                            class="bg-developer-100 dark:bg-developer-700 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                                            class="bg-developer-100 dark:bg-developer-700 w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center flex-shrink-0"
                                         >
                                             <svg
-                                                class="w-6 h-6 text-developer-600 dark:text-developer-100"
+                                                class="w-5 h-5 sm:w-6 sm:h-6 text-developer-600 dark:text-developer-100"
                                                 fill="none"
                                                 stroke="currentColor"
                                                 viewBox="0 0 24 24"
@@ -435,19 +436,21 @@
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 class="text-lg font-bold mb-2">Validated Market Fit</h4>
-                                            <p class="text-gray-600 dark:text-white/70">
+                                            <h4 class="text-base sm:text-lg font-bold mb-1 sm:mb-2">
+                                                Validated Market Fit
+                                            </h4>
+                                            <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                 Take the guesswork out of product-market fit. Build for committed
                                                 customers.
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="flex items-start gap-4">
+                                    <div class="flex items-start gap-3 sm:gap-4">
                                         <div
-                                            class="bg-developer-100 dark:bg-developer-700 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                                            class="bg-developer-100 dark:bg-developer-700 w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center flex-shrink-0"
                                         >
                                             <svg
-                                                class="w-6 h-6 text-developer-600 dark:text-developer-100"
+                                                class="w-5 h-5 sm:w-6 sm:h-6 text-developer-600 dark:text-developer-100"
                                                 fill="none"
                                                 stroke="currentColor"
                                                 viewBox="0 0 24 24"
@@ -461,18 +464,20 @@
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 class="text-lg font-bold mb-2">Direct Communication</h4>
-                                            <p class="text-gray-600 dark:text-white/70">
+                                            <h4 class="text-base sm:text-lg font-bold mb-1 sm:mb-2">
+                                                Direct Communication
+                                            </h4>
+                                            <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                 Work directly with businesses to build exactly what they need.
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="flex items-start gap-4">
+                                    <div class="flex items-start gap-3 sm:gap-4">
                                         <div
-                                            class="bg-developer-100 dark:bg-developer-700 w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                                            class="bg-developer-100 dark:bg-developer-700 w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center flex-shrink-0"
                                         >
                                             <svg
-                                                class="w-6 h-6 text-developer-600 dark:text-developer-100"
+                                                class="w-5 h-5 sm:w-6 sm:h-6 text-developer-600 dark:text-developer-100"
                                                 fill="none"
                                                 stroke="currentColor"
                                                 viewBox="0 0 24 24"
@@ -486,8 +491,10 @@
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 class="text-lg font-bold mb-2">Focused Development</h4>
-                                            <p class="text-gray-600 dark:text-white/70">
+                                            <h4 class="text-base sm:text-lg font-bold mb-1 sm:mb-2">
+                                                Focused Development
+                                            </h4>
+                                            <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                 Don't waste time building features nobody wants. Focus on what matters.
                                             </p>
                                         </div>
@@ -495,16 +502,16 @@
                                 </div>
                             </div>
 
-                            <div class="mt-8 flex">
+                            <div class="mt-auto">
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     href="https://forms.gle/F7mbw9Gt4gTKNT4n7"
-                                    class="bg-developer-600 text-white px-8 py-4 rounded-full hover:bg-developer-700 transition-colors font-medium flex items-center gap-2 group text-base"
+                                    class="w-full sm:w-auto bg-developer-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full hover:bg-developer-700 transition-colors font-medium flex items-center justify-center gap-2 group text-sm sm:text-base"
                                 >
                                     Browse Problems
                                     <svg
-                                        class="w-5 h-5 group-hover:translate-x-0.5 transition-transform"
+                                        class="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-0.5 transition-transform"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -524,55 +531,93 @@
             </section>
 
             <!-- How It Works -->
-            <section class="py-20 border-t border-gray-200 dark:border-gray-700">
+            <section class="py-12 sm:py-20 border-t border-gray-200 dark:border-gray-700">
                 <div class="max-w-7xl mx-auto px-8">
-                    <div class="text-center mb-16">
-                        <h2 class="text-4xl font-bold mb-4">How It Works</h2>
-                        <p class="text-xl text-gray-600 dark:text-white/70 max-w-2xl mx-auto">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl sm:text-4xl font-bold mb-3 sm:mb-4">How It Works</h2>
+                        <p class="text-lg sm:text-xl text-gray-600 dark:text-white/70 max-w-2xl mx-auto">
                             From business problem to software solution in three simple steps
                         </p>
                     </div>
 
                     <div class="max-w-4xl mx-auto">
-                        <ol class="relative space-y-16">
+                        <ol class="relative space-y-12 sm:space-y-16">
                             <!-- Connecting Line -->
-                            <div class="absolute left-8 top-4 bottom-4 w-px bg-gray-200 dark:bg-gray-500"></div>
+                            <div
+                                class="absolute left-4 sm:left-8 top-4 bottom-4 w-px bg-gray-200 dark:bg-gray-500"
+                            ></div>
 
                             <!-- Step 1 -->
                             <li class="relative">
-                                <div class="flex gap-8">
+                                <div class="flex gap-4 sm:gap-8">
                                     <div
-                                        class="w-16 h-16 rounded-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-500 flex items-center justify-center flex-shrink-0 z-10"
+                                        class="w-8 h-8 sm:w-16 sm:h-16 rounded-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-500 flex items-center justify-center flex-shrink-0 z-10"
                                     >
-                                        <span class="text-2xl font-bold text-gray-600 dark:text-gray-200">1</span>
+                                        <span class="text-lg sm:text-2xl font-bold text-gray-600 dark:text-gray-200"
+                                            >1</span
+                                        >
                                     </div>
-                                    <div class="flex-1 pt-2">
-                                        <h3 class="text-2xl font-bold mb-3">Share Your Business Problem</h3>
-                                        <p class="text-gray-600 dark:text-white/70 text-lg mb-6">
+                                    <div class="flex-1">
+                                        <h3 class="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 pt-1">
+                                            Share Your Business Problem
+                                        </h3>
+                                        <p class="text-base sm:text-lg text-gray-600 dark:text-white/70 mb-4 sm:mb-6">
                                             Businesses describe their challenges and what they'd be willing to pay for a
                                             solution. No upfront costs - you only pay when you find a solution that
                                             works.
                                         </p>
-                                        <div class="grid sm:grid-cols-2 gap-6">
+                                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                                             <div
-                                                class="border border-business-200 dark:border-business-500 rounded-lg p-4"
+                                                class="border border-business-200 dark:border-business-700 rounded-lg p-3 sm:p-4"
                                             >
-                                                <div
-                                                    class="text-sm font-semibold text-business-600 dark:text-business-200 mb-1"
-                                                >
-                                                    For Businesses
+                                                <div class="flex items-center gap-2 mb-1">
+                                                    <svg
+                                                        class="w-4 h-4 text-business-600 dark:text-business-200"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        viewBox="0 0 24 24"
+                                                    >
+                                                        <path
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            stroke-width="2"
+                                                            d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                                        />
+                                                    </svg>
+                                                    <div
+                                                        class="text-sm font-semibold text-business-600 dark:text-business-200"
+                                                    >
+                                                        For Businesses
+                                                    </div>
                                                 </div>
-                                                <p class="text-gray-600 dark:text-white/70">
+                                                <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                     Define your problem and budget
                                                 </p>
                                             </div>
                                             <div
-                                                class="border border-developer-200 dark:border-developer-700 rounded-lg p-4"
+                                                class="border border-developer-200 dark:border-developer-700 rounded-lg p-3 sm:p-4"
                                             >
-                                                <div class="text-sm font-semibold text-developer-600 mb-1">
-                                                    For Developers
+                                                <div class="flex items-center gap-2 mb-1">
+                                                    <svg
+                                                        class="w-4 h-4 text-developer-600 dark:text-developer-200"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        viewBox="0 0 24 24"
+                                                    >
+                                                        <path
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            stroke-width="2"
+                                                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                                                        />
+                                                    </svg>
+                                                    <div
+                                                        class="text-sm font-semibold text-developer-600 dark:text-developer-200"
+                                                    >
+                                                        For Developers
+                                                    </div>
                                                 </div>
-                                                <p class="text-gray-600 dark:text-white/70">
+                                                <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                     Find validated opportunities
                                                 </p>
                                             </div>
@@ -583,36 +628,74 @@
 
                             <!-- Step 2 -->
                             <li class="relative">
-                                <div class="flex gap-8">
+                                <div class="flex gap-4 sm:gap-8">
                                     <div
-                                        class="w-16 h-16 rounded-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-500 flex items-center justify-center flex-shrink-0 z-10"
+                                        class="w-8 h-8 sm:w-16 sm:h-16 rounded-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-500 flex items-center justify-center flex-shrink-0 z-10"
                                     >
-                                        <span class="text-2xl font-bold text-gray-600 dark:text-gray-200">2</span>
+                                        <span class="text-lg sm:text-2xl font-bold text-gray-600 dark:text-gray-200"
+                                            >2</span
+                                        >
                                     </div>
-                                    <div class="flex-1 pt-2">
-                                        <h3 class="text-2xl font-bold mb-3">Collaborate on Development</h3>
-                                        <p class="text-gray-600 dark:text-white/70 text-lg mb-6">
+                                    <div class="flex-1">
+                                        <h3 class="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 pt-1">
+                                            Collaborate on Development
+                                        </h3>
+                                        <p class="text-base sm:text-lg text-gray-600 dark:text-white/70 mb-4 sm:mb-6">
                                             Developers propose solutions and build products with guaranteed first
                                             customers. Direct communication ensures the solution meets business needs.
                                         </p>
-                                        <div class="grid sm:grid-cols-2 gap-6">
+                                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                                             <div
-                                                class="border border-business-200 dark:border-business-700 rounded-lg p-4"
+                                                class="border border-gray-200 dark:border-gray-700 rounded-lg p-3 sm:p-4"
                                             >
-                                                <div class="text-sm font-semibold text-business-600 mb-1">
-                                                    For Businesses
+                                                <div class="flex items-center gap-2 mb-1">
+                                                    <svg
+                                                        class="w-4 h-4 text-business-600 dark:text-business-200"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        viewBox="0 0 24 24"
+                                                    >
+                                                        <path
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            stroke-width="2"
+                                                            d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                                        />
+                                                    </svg>
+                                                    <div
+                                                        class="text-sm font-semibold text-business-600 dark:text-business-200"
+                                                    >
+                                                        For Businesses
+                                                    </div>
                                                 </div>
-                                                <p class="text-gray-600 dark:text-white/70">
+                                                <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                     Guide the development process
                                                 </p>
                                             </div>
                                             <div
-                                                class="border border-developer-200 dark:border-developer-700 rounded-lg p-4"
+                                                class="border border-gray-200 dark:border-gray-700 rounded-lg p-3 sm:p-4"
                                             >
-                                                <div class="text-sm font-semibold text-developer-600 mb-1">
-                                                    For Developers
+                                                <div class="flex items-center gap-2 mb-1">
+                                                    <svg
+                                                        class="w-4 h-4 text-developer-600 dark:text-developer-200"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        viewBox="0 0 24 24"
+                                                    >
+                                                        <path
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            stroke-width="2"
+                                                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                                                        />
+                                                    </svg>
+                                                    <div
+                                                        class="text-sm font-semibold text-developer-600 dark:text-developer-200"
+                                                    >
+                                                        For Developers
+                                                    </div>
                                                 </div>
-                                                <p class="text-gray-600 dark:text-white/70">
+                                                <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                     Build with customer feedback
                                                 </p>
                                             </div>
@@ -623,36 +706,74 @@
 
                             <!-- Step 3 -->
                             <li class="relative">
-                                <div class="flex gap-8">
+                                <div class="flex gap-4 sm:gap-8">
                                     <div
-                                        class="w-16 h-16 rounded-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-500 flex items-center justify-center flex-shrink-0 z-10"
+                                        class="w-8 h-8 sm:w-16 sm:h-16 rounded-full bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-500 flex items-center justify-center flex-shrink-0 z-10"
                                     >
-                                        <span class="text-2xl font-bold text-gray-600 dark:text-gray-200">3</span>
+                                        <span class="text-lg sm:text-2xl font-bold text-gray-600 dark:text-gray-200"
+                                            >3</span
+                                        >
                                     </div>
-                                    <div class="flex-1 pt-2">
-                                        <h3 class="text-2xl font-bold mb-3">Launch and Scale</h3>
-                                        <p class="text-gray-600 dark:text-white/70 text-lg mb-6">
+                                    <div class="flex-1">
+                                        <h3 class="text-xl sm:text-2xl font-bold mb-2 sm:mb-3 pt-1">
+                                            Launch and Scale
+                                        </h3>
+                                        <p class="text-base sm:text-lg text-gray-600 dark:text-white/70 mb-4 sm:mb-6">
                                             Products launch with committed customers. Developers own their solutions and
                                             can expand to more customers, while businesses get early adopter benefits.
                                         </p>
-                                        <div class="grid sm:grid-cols-2 gap-6">
+                                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                                             <div
-                                                class="border border-business-200 dark:border-business-700 rounded-lg p-4"
+                                                class="border border-gray-200 dark:border-gray-700 rounded-lg p-3 sm:p-4"
                                             >
-                                                <div class="text-sm font-semibold text-business-600 mb-1">
-                                                    For Businesses
+                                                <div class="flex items-center gap-2 mb-1">
+                                                    <svg
+                                                        class="w-4 h-4 text-business-600 dark:text-business-200"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        viewBox="0 0 24 24"
+                                                    >
+                                                        <path
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            stroke-width="2"
+                                                            d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                                        />
+                                                    </svg>
+                                                    <div
+                                                        class="text-sm font-semibold text-business-600 dark:text-business-200"
+                                                    >
+                                                        For Businesses
+                                                    </div>
                                                 </div>
-                                                <p class="text-gray-600 dark:text-white/70">
+                                                <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                     Get preferred pricing and support
                                                 </p>
                                             </div>
                                             <div
-                                                class="border border-developer-200 dark:border-developer-700 rounded-lg p-4"
+                                                class="border border-gray-200 dark:border-gray-700 rounded-lg p-3 sm:p-4"
                                             >
-                                                <div class="text-sm font-semibold text-developer-600 mb-1">
-                                                    For Developers
+                                                <div class="flex items-center gap-2 mb-1">
+                                                    <svg
+                                                        class="w-4 h-4 text-developer-600 dark:text-developer-200"
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        viewBox="0 0 24 24"
+                                                    >
+                                                        <path
+                                                            stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            stroke-width="2"
+                                                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                                                        />
+                                                    </svg>
+                                                    <div
+                                                        class="text-sm font-semibold text-developer-600 dark:text-developer-200"
+                                                    >
+                                                        For Developers
+                                                    </div>
                                                 </div>
-                                                <p class="text-gray-600 dark:text-white/70">
+                                                <p class="text-sm sm:text-base text-gray-600 dark:text-white/70">
                                                     Grow your product business
                                                 </p>
                                             </div>
@@ -666,7 +787,7 @@
             </section>
 
             <!-- Frequently Asked Questions -->
-            <section class="py-20 border-t border-gray-200 dark:border-gray-700">
+            <section class="py-12 sm:py-20 border-t border-gray-200 dark:border-gray-700">
                 <div class="max-w-7xl mx-auto px-8">
                     <div class="text-center mb-16">
                         <h2 class="text-4xl font-bold mb-4">Frequently Asked Questions</h2>
@@ -777,7 +898,7 @@
         </main>
 
         <!-- Footer -->
-        <footer class="bg-gray-50 dark:bg-[#1E2025] py-12">
+        <footer class="bg-gray-50 dark:bg-[#1E2025] py-8 sm:py-12">
             <div class="max-w-7xl mx-auto px-8">
                 <div class="flex justify-between items-center">
                     <div class="flex items-center gap-2">
